@@ -13,7 +13,7 @@ const Hero = () => {
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary" href="#projects">View Projects</a>
-            <a className="btn btn-secondary" href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a className="btn btn-secondary" href="/assets/Susmitha_Resume_All.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
           </div>
         </div>
         <aside className="profile-frame">

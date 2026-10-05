@@ -243,7 +243,7 @@ const Projects = () => {
               <span className="project-category">FULL-STACK / FINTECH</span>
               <h4>Trade Hub</h4>
               <p className="project-description" style={{ marginBottom: '12px' }}>
-                Engineered a paper-trading platform simulating real-world stock market dynamics with a $10,000 virtual portfolio. Users can actively buy and sell US stocks, track live portfolio performance, and manage custom watchlists. Features interactive Chart.js visualizations and secure JWT authentication for beginners.
+                Engineered a paper-trading platform simulating real-world stock market dynamics with a $10,000 virtual portfolio. Users can actively buy and sell US stocks, track live portfolio performance, and manage custom watchlists. Features interactive visualizations and secure JWT authentication for beginners.
               </p>
 
               {openDetails['tradehub'] && (
@@ -266,7 +266,7 @@ const Projects = () => {
                     <span className="project-detail-label">Technologies Used</span>
                     <div className="project-tech-detail-box">
                       <div className="project-tech-row">
-                        <span className="tech-category">Frontend:</span> React 18 | Redux Toolkit | React Router | Chart.js | Axios | React Toastify
+                        <span className="tech-category">Frontend:</span> React 18 | Redux Toolkit | React Router | Axios | React Toastify
                       </div>
                       <div className="project-tech-row">
                         <span className="tech-category">Backend:</span> Node.js | Express.js | REST APIs
@@ -299,10 +299,10 @@ const Projects = () => {
               )}
 
               <div className="project-tech">
-                <span>React 18</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Redux Toolkit</span><span>Chart.js</span>
+                <span>React 18</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Redux Toolkit</span>
               </div>
               <div className="project-links" style={{ gap: '12px', border: 'none', paddingTop: '8px' }}>
-                <a href="https://github.com/Susmitha967/Trade-Hub" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ padding: '6px 16px', fontSize: '0.85rem' }}>
+                <a href="https://github.com/Reshma-1717/SB-Stocks" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ padding: '6px 16px', fontSize: '0.85rem' }}>
                   <GithubIcon /> GitHub
                 </a>
                 <button
